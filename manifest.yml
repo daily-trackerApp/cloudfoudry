@@ -1,0 +1,7 @@
+---
+applications:
+- name: node-cf-demo
+  memory: 256M
+  instances: 1
+  routes:
+    - route: node-cf-demo-anil.cfapps.us10-001.hana.ondemand.com
